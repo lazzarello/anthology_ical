@@ -1,0 +1,9 @@
+div.calendar/table//tr/td//div.event_count/ul/li
+
+div.event_count
+  ul/li
+    a.thickbox
+      span.showtime.get_text
+    a.thickbox.get_text
+
+events = [{ :link => "link_text", :title => "title_string", :showtime => "showtime_text" }]
